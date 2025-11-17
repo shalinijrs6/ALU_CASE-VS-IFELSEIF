@@ -223,6 +223,7 @@ select the test bench and compile it. It will come under Worklib. Under Worklib,
 
 The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 <img width="1920" height="1080" alt="Screenshot 2025-10-07 145645" src="https://github.com/user-attachments/assets/7d64884b-4188-4301-87b4-3dcea9064fb0" />
+
 ![WhatsApp Image 2025-11-17 at 08 55 22_a6a05b44](https://github.com/user-attachments/assets/9451d44c-96e2-49ed-9a1a-b56fd59c7a0c)
 
 
@@ -251,6 +252,7 @@ After elaboration, the file will come under snapshot. Select the test bench and 
 
 #### Fig 5: Elaboration Launch Option
 <img width="1920" height="1080" alt="Screenshot 2025-10-07 145645" src="https://github.com/user-attachments/assets/9df1a6ab-99fc-4348-b7e3-e84c4ff96253" />
+
 ![WhatsApp Image 2025-11-17 at 08 58 02_6fcce81d](https://github.com/user-attachments/assets/4db95edb-cd6c-43f8-9a40-985c6b7efcf3)
 
 #### Step 3: Simulation:
@@ -271,6 +273,7 @@ Steps for simulation – Run the simulation command with simulator options
 
 #### Fig 6: Design Browser window for simulation
 <img width="1920" height="1080" alt="Screenshot 2025-10-07 145828" src="https://github.com/user-attachments/assets/6f03b645-1253-4546-86be-8421c85752b7" />
+
 ![WhatsApp Image 2025-11-17 at 09 00 18_d5a7b2e0](https://github.com/user-attachments/assets/c42a3a94-83b0-47bf-bacd-ea8592f5f73e)
 
 
@@ -282,6 +285,7 @@ Synthesis requires three files as follows,
 
 ◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
 <img width="1920" height="1080" alt="Screenshot 2025-10-04 092953" src="https://github.com/user-attachments/assets/2331355d-8563-4ad1-b990-8319ae387520" />
+
 ![WhatsApp Image 2025-11-17 at 09 07 33_5305fa08](https://github.com/user-attachments/assets/3009549f-ab8c-40fc-9a34-35079ae3ac27)
 
 ##### Performing Synthesis
@@ -299,18 +303,22 @@ The Liberty files are present in the library path,
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
 
 <img width="1920" height="1080" alt="Screenshot 2025-10-04 093930" src="https://github.com/user-attachments/assets/9a90c5df-ca60-4bdd-9251-61b1de2ffdc2" />
+
 ![WhatsApp Image 2025-11-17 at 09 10 58_85fcf726](https://github.com/user-attachments/assets/92793fd8-7558-4d63-9999-d3afb1317d7b)
 
 #### Fig 8: Synthesis RTL Schematic using case and ifelseif construct
 <img width="1920" height="1080" alt="Screenshot 2025-10-04 094132" src="https://github.com/user-attachments/assets/715f6870-51e7-4427-ab69-4d9ebc44ae41" />
+
 ![WhatsApp Image 2025-11-17 at 09 11 42_dbc30ca7](https://github.com/user-attachments/assets/c719ed7d-b294-4bca-b595-cdd3ba99d38d)
 
 #### Fig 9: Area report of case and ifelseif construct
 <img width="1920" height="1080" alt="Screenshot 2025-10-04 094243" src="https://github.com/user-attachments/assets/ab274a2e-6da7-429c-bc59-3ddccc7806a2" />
+
 ![WhatsApp Image 2025-11-17 at 09 28 44_ace05534](https://github.com/user-attachments/assets/66a14bdf-bf4d-4483-91e2-49d7112338be)
 
 #### Fig 10: Power Report of case and ifelseif construct
 <img width="1920" height="1080" alt="Screenshot 2025-10-04 094554" src="https://github.com/user-attachments/assets/84b519d1-caa7-48cc-8fd2-2710828bef08" />
+
 ![WhatsApp Image 2025-11-17 at 09 29 20_a459f804](https://github.com/user-attachments/assets/3a90ff76-5705-443a-bce4-c89b98421f95)
 
 #### Fig 11: Timing Report of case and ifelseif construct
