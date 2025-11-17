@@ -302,7 +302,8 @@ The Liberty files are present in the library path,
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
 
-<img width="1920" height="1080" alt="Screenshot 2025-10-04 093930" src="https://github.com/user-attachments/assets/9a90c5df-ca60-4bdd-9251-61b1de2ffdc2" />
+<img width="1602" height="877" alt="image" src="https://github.com/user-attachments/assets/4e6f1604-98e8-4381-b5f2-9cc1d80f3411" />
+
 
 ![WhatsApp Image 2025-11-17 at 09 10 58_85fcf726](https://github.com/user-attachments/assets/92793fd8-7558-4d63-9999-d3afb1317d7b)
 
